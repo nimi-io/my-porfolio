@@ -9,20 +9,20 @@ import {
 import { IApp } from "./interfaces";
 
 const app: IApp = {
-  title: "Ufuoma Oghenechovwe",
-  desc: "Rukkie's Porfolio and Resume",
+  title: "Nimi.io",
+  desc: "Nimi's Porfolio and Resume",
   hero: {
     tag: "hero",
-    name: "Ufuoma Oghenechovwe",
-    catchPhrase: "Frontend Engineer",
-    text: "Creative",
-    greeting: "Hey, I'm Rukkie",
-    desc: "<p>Frontend Engineer</p>",
+    name: "Ibukun-Odunsi Toluwanimi",
+    catchPhrase: "Software Engineer",
+    text: "Experienced",
+    greeting: "Hey, I'm Nimi.io",
+    desc: "<p>Software Engineer</p>",
   },
   about: {
     tag: "about",
-    name: "Ufuoma",
-    bio: "I'm a frontend engineer with 3 years of experience collaborating with diverse and talented teams to deliver cutting-edge web projects. I have proven ability to seamlessly blend design with technical excellence. I pay great attention to detail. <p>I'm proficient and actively working with the tools and skillset listed below.<p/>",
+    name: "Nimi",
+    bio: "I'm a software engineer with several years of experience collaborating with diverse and talented teams to deliver cutting-edge web projects. I have proven ability to seamlessly blend design with technical excellence. I pay great attention to detail. <p>I'm proficient and actively working with the tools and skillset listed below.<p/>",
 
     skills: [
       {
@@ -30,33 +30,29 @@ const app: IApp = {
         list: [
           {
             name: "language",
-            data: ["javascript", "typescript"],
+            data: ["javascript", "typescript", "GoLang", "Python"],
           },
           {
-            name: "frontend",
-            data: ["reactJS", "vueJS", "nextJS", "nuxtJS"],
+            name: "Backend",
+            data: ["Express", "Nest", "Golang", "Django", "Flask"],
           },
           {
-            name: "state-management",
-            data: ["vuex", "redux", "react-query"],
+            name: "Devops",
+            data: ["Linux Server", "Digital Ocean", "CI/CD"],
           },
           {
-            name: "styling",
-            data: ["CSS3", "tailwindCSS", "MUI"],
+            name: "database",
+            data: ["MongoDb", "Postgres", "SQL"],
           },
-          // {
-          //   name: "database",
-          //   data: ["firebase", "graphql"],
-          // },
           // { name: "animation", data: ["GSAP"] },
-          { name: "others", data: ["git", "GSAP", "firebase"] },
+          { name: "others", data: ["git", "firebase", "docker"] },
         ],
       },
     ],
   },
   contact: {
     tag: "contact",
-    email: "rukkiechowe@gmail.com",
+    email: "ibukunoluwaodunsi@gmail.com",
     urls: [
       {
         icon: <FilePdf size={22} />,
@@ -65,7 +61,7 @@ const app: IApp = {
       },
       {
         icon: <LinkedinLogo size={22} />,
-        url: "https://linkedin.com/in/rukkiechovwe",
+        url: "https://www.linkedin.com/in/nimi-io/",
         title: "Linkedin",
       },
       {
@@ -75,7 +71,7 @@ const app: IApp = {
       },
       {
         icon: <GithubLogo size={22} />,
-        url: "https://github.com/rukkiechovwe",
+        url: "https://github.com/nimi-io",
         title: "Github",
       },
     ],
@@ -517,7 +513,7 @@ const app: IApp = {
       },
       {
         icon: <LinkedinLogo size={24} />,
-        url: "https://linkedin.com/in/rukkiechovwe",
+        url: "https://linkedin.com/in/nimi-io",
         title: "Linkedin",
       },
       {
@@ -527,7 +523,7 @@ const app: IApp = {
       },
       {
         icon: <GithubLogo size={24} />,
-        url: "https://github.com/rukkiechovwe",
+        url: "https://github.com/nimi-io",
         title: "Github",
       },
     ],
