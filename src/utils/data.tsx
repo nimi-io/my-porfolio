@@ -56,7 +56,7 @@ const app: IApp = {
     urls: [
       {
         icon: <FilePdf size={22} />,
-        url: "/assets/Resume_Ufuoma_Oghenechovwe.pdf",
+        url: "https://docs.google.com/document/d/1H2R6EIeDXhbrjmEruQIN1DE4SjSOU6ZB/edit?usp=sharing&ouid=116648695553061576370&rtpof=true&sd=true",
         title: "Resume",
       },
       {
@@ -66,7 +66,7 @@ const app: IApp = {
       },
       {
         icon: <TwitterLogo size={22} />,
-        url: "https://twitter.com/rukkiechovwe",
+        url: "https://twitter.com/TheOnlyNimi",
         title: "Twitter",
       },
       {

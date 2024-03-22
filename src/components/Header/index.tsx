@@ -9,19 +9,14 @@ import { useRouter } from "next/router";
 const navItems = ["/", "About", "Experience", "Project", "Contact"];
 
 const Header: FC = () => {
-  const router = useRouter()
+  const router = useRouter();
   const { darkMode, toggleTheme } = useThemeContext();
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <S.Container>
       <S.Bar>
-        <S.LogoImage
-          src="/assets/images/logo.jpg"
-          alt=""
-          width="45"
-          height="45"
-        />
+        <S.LogoImage src="/public/favicon.jpg" alt="" width="45" height="45" />
         <S.ThemeWrapper>
           <S.Theme onClick={(_e) => toggleTheme?.()}>
             {darkMode ? <SunDim size={24} /> : <Moon size={24} />}
@@ -47,7 +42,7 @@ const Header: FC = () => {
                 // }}
               >
                 <S.LogoImage
-                  src="/assets/images/logo.jpg"
+                  src="/public/favicon.jpg"
                   alt=""
                   width="60"
                   height="60"
