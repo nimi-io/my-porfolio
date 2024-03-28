@@ -32,7 +32,7 @@ const Text = styled.span`
 const Footer: React.FC = () => {
   return (
     <Container>
-      <Text>©2023 </Text>
+      <Text>2024 </Text>
       <Text>Designed with ❤️</Text>
     </Container>
   );

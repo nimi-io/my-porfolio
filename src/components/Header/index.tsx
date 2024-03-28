@@ -16,7 +16,7 @@ const Header: FC = () => {
   return (
     <S.Container>
       <S.Bar>
-        <S.LogoImage src="/public/favicon.jpg" alt="" width="45" height="45" />
+        <S.LogoImage src="/public/nimi.png" alt="" width="45" height="45" />
         <S.ThemeWrapper>
           <S.Theme onClick={(_e) => toggleTheme?.()}>
             {darkMode ? <SunDim size={24} /> : <Moon size={24} />}
@@ -42,7 +42,7 @@ const Header: FC = () => {
                 // }}
               >
                 <S.LogoImage
-                  src="/public/favicon.jpg"
+                  src="/public/nimi.png"
                   alt=""
                   width="60"
                   height="60"

@@ -467,7 +467,7 @@ const app: IApp = {
     urls: [
       {
         icon: <EnvelopeSimple size={24} />,
-        url: "mailto:rukkiechowe@gmail.com",
+        url: "mailto:ibukunoluwaodunsi@gmail.com",
         title: "Email",
       },
       {
@@ -477,7 +477,7 @@ const app: IApp = {
       },
       {
         icon: <TwitterLogo size={24} />,
-        url: "https://twitter.com/rukkiechovwe",
+        url: "https://twitter.com/TheOnlyNimi",
         title: "Twitter",
       },
       {

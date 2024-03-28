@@ -27,7 +27,7 @@ const Layout: NextPage<Props> = ({ app, pageTitle, children }: Props) => {
       <Head>
         <title>{pageTitle ? pageTitle : app.title}</title>
         <meta name="description" content={app.desc} />
-        <link rel="icon" href="/favicon.jpg" />
+        <link rel="icon" href="/nimi.png" />
       </Head>
       <Cursor />
       <Header />
