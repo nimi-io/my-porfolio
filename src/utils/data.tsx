@@ -22,7 +22,7 @@ const app: IApp = {
   about: {
     tag: "about",
     name: "Nimi",
-    bio: "I'm a software engineer with several years of experience collaborating with diverse and talented teams to deliver cutting-edge web projects. I have proven ability to seamlessly blend design with technical excellence. I pay great attention to detail. <p>I'm proficient and actively working with the tools and skillset listed below.<p/>",
+    bio: "As an experienced software engineer, I've collaborated with diverse and talented teams to deliver cutting-edge web projects. My expertise lies in seamlessly integrating design and technical excellence, with meticulous attention to detail. I actively work with and continuously refine the following tools and skillset.<p/>",
 
     skills: [
       {
@@ -34,7 +34,15 @@ const app: IApp = {
           },
           {
             name: "Backend",
-            data: ["Express", "Nest", "Golang", "Django", "Flask"],
+            data: [
+              "NodeJs",
+              "ExpressJs",
+              "NestJs",
+              "Golang",
+              "Python",
+              "Django",
+              "Flask",
+            ],
           },
           {
             name: "Devops",
@@ -81,63 +89,76 @@ const app: IApp = {
     tag: "experience",
     experiences: [
       {
-        companyName: "3RM",
-        companyLink: "",
-        duration: "November 2022 - May 2023",
-        jobTitle: "Frontend Engineer",
+        companyName: "Figorr [Formerlly Gricd]",
+        companyLink: "Figorr.com",
+        duration: "January 2021 - Till date",
+        jobTitle: "Software Engineer",
         workDone: [
-          "Collaborated closely with the backend, design, and product teams at 3RM in the  successful development of a cutting-edge web3 relationship manager, fostering efficient communication and organisational excellence within the company.",
-          "Developed and maintained flawless integration of Telegram, into the company's website, introducing key features such as Telegram syncing, follow-up assignment, and conversation tracking.",
-          "Ensured exceptional user experience by implementing responsive design techniques, ensuring cross - browser compatibility, and optimising mobile responsiveness.",
-          "Teamed up closely with the design team at 3RM to transform mockups and wireframes into well polished, functional web pages, ensuring a seamless and visually appealing user experience.",
-          "Optimised website performance through the application of advanced code optimization techniques and leveraging caching mechanisms, resulting in faster load times and improved overall user experience.",
-          "Demonstrated remarkable efficiency and time management skills in a fully remote role, showcasing the ability to work autonomously and deliver high - quality results without the need for micro - management.",
+          "Orchestrated a high-performing team to develop and deploy software components that automated manual processes, culminating in a remarkable 35% surge in productivity within the organization.",
+          "Developed high-performance databases that reduced data processing time by 25%.",
+          "Advised on optimal server hardware and software solutions, resulting in an 80% decrease in system downtime.",
+          "Strategized effective test plans, resulting in a 90% decrease in post-release defects.",
+          "Led cross-functional teams in the successful delivery of complex projects, ensuring alignment with business objectives and timelines.",
+          "Implemented agile methodologies, enhancing team collaboration and accelerating project delivery by 20%.",
+          "Optimized codebase for scalability and performance, resulting in a 40% improvement in application responsiveness.",
+          "Mentored junior team members, fostering their professional growth and improving team cohesion.",
+          "Contributed to the development of company-wide coding standards and best practices, ensuring consistency and quality across projects.",
         ],
       },
       {
-        companyName: "Metadapp",
+        companyName: "Go54 [formerly whogohost]",
         companyLink: "",
-        duration: "September 2021 - March 2023",
-        jobTitle: "Frontend Developer",
+        duration: "2024",
+        jobTitle: "Backend Developer [contract]",
         workDone: [
-          "Led the development and successful implementation of critical features such as Risk Management, Portfolio Management, Referral System, and Revoke Approval within the Metadapp web3 application.",
-          "Collaborated closely with the design, product, and backend teams to oversee and maintain the Metadapp web3 dashboard ensuring a seamless user experience and effective presentation of information.",
-          "Integrated GraphQL APIs and various third - party services and web3 APIs elevating website functionality and enabling efficient data retrieval.Thereby enhancing overall user engagement. ",
-          "Conducted rigorous testing and debugging protocols, swiftly identifying and resolving frontend codebase issues to ensure a resilient and error - free application.",
-          "Worked closely with the customer success team, triaging, troubleshooting, and promptly resolving customer- facing issues.Provided technical support, guidance, and implemented effective solutions to maintain a high standard of customer satisfaction.",
-          "Enhanced developer experience and code readability through eliminating redundancy, simplifying, and introducing reusable components for improved clarity and efficiency.",
+          "Enhanced the backend infrastructure by implementing new features and optimizations using Node.js, NestJs, AdonisJs, and ExpressJs, resulting in significant improvements in performance and responsiveness.",
+          "Led the design and implementation of key features for the Express and AdonisJs API, driving efficiency gains and enhancing overall system functionality.",
+          "Streamlined the Node.js CI/CD pipeline through GitHub Actions by integrating new features seamlessly, resulting in a notable 50% reduction in integration time.",
+          "Demonstrated expertise in DevOps methodologies by integrating and deploying new features seamlessly within the existing infrastructure.",
         ],
       },
-      // {
-      //   companyName: "GreenTech",
-      //   companyLink: "",
-      //   duration: "September 2021 - April 2022",
-      //   jobTitle: "Frontend Developer",
-      //   workDone: [
-      //     "Played a pivotal role in designing and implementing various features and functionalities, including API integrations, as part of the frontend development team.",
-      //     "Collaborated closely with the design and product teams to create a professional and user-friendly consultancy website, ensuring a seamless user experience and effective presentation of information.",
-      //     "Managed and maintained the Naija Kobo Market website, ensuring its smooth operation, regular updates, and adherence to design standards and guidelines.",
-      //   ],
-      // },
-      // {
-      //   companyName: "Kivifood",
-      //   companyLink: "",
-      //   duration: "May 2021 - February 2022",
-      //   jobTitle: "Frontend Developer/UI Designer",
-      //   workDone: [
-      //     "Devised and implemented the Kivifood marketing website and conducted several experiments to drive growth and engagement.",
-      //     "Worked together with the mobile team to design the Kivifood mobile app interface.",
-      //   ],
-      // },
       {
-        companyName: "Xigma",
+        companyName: "Autotrack",
         companyLink: "",
-        duration: "April 2021 - July 2021",
-        jobTitle: "Frontend Developer Intern",
+        duration: "2023",
+        jobTitle: "Backend Developer [contract]",
         workDone: [
-          "Designed and developed the Xigma solar service website, contributing to its design and functionality to enhance user engagement and promote solar services effectively.",
-          "Teamed up with the product team to design and refine the mobile interface.Ensured a seamless, user- friendly and visually appealing experience for mobile users accessing the Xigma solar service.",
-          "Exhibited leadership qualities by initiating and leading a training program for a cohort of 10 interns, delivering a comprehensive introduction to frontend development.This endeavour contributed to fostering a collaborative learning environment and skill development within the team.",
+          "Crafted the application from inception, architecting a robust Node.js + NestJs backend to facilitate user growth, significantly boosting performance and responsiveness.",
+          "Led the development efforts for the NestJs API, resulting in notable efficiency gains and enhanced system functionality.",
+          "Introduced and managed a comprehensive Node.js CI/CD pipeline (implemented via GitLab), effectively halving integration time and reducing delivery time by 25%.",
+        ],
+      },
+      {
+        companyName: "Electran Technologies",
+        companyLink: "",
+        duration: "2023",
+        jobTitle: "Backend Developer [contract]",
+        workDone: [
+          "Optimized the Node.js + Express backend, significantly enhancing performance and responsiveness, resulting in a remarkable increase in user growth.",
+          "Streamlined MongoDB operations through strategic schema design and indexing techniques, accelerating query speeds and improving system efficiency.",
+          "Led the development of the Express API, achieving a notable increase in user satisfaction.",
+          "Implemented a robust Node.js CI/CD pipeline (using GitLab), effectively reducing integration time and delivery time.",
+        ],
+      },
+      {
+        companyName: "OurCraft Ventures",
+        companyLink: "",
+        duration: "2020 - 2021",
+        jobTitle: "Hardware Design Engineer",
+        workDone: [
+          "Enhanced existing software by debugging, optimizing, and adapting it to new hardware, resulting in a remarkable 20% increase in software efficiency.",
+          "Conducted hardware tests and performed regular maintenance on electronic systems to ensure optimal performance and reliability.",
+        ],
+      },
+      {
+        companyName: "Rivents Lab",
+        companyLink: "",
+        duration: "2019 - 2021",
+        jobTitle: "Embedded Systems Developer",
+        workDone: [
+          "Conducted thorough inspections of automation mechanisms to ensure compliance with quality standards and flawless installation, resulting in a 20% reduction in downtime.",
+          "Compiled and maintained comprehensive technical records to facilitate efficient planning and troubleshooting for future projects, saving an estimated 100 hours per project.",
+          "Troubleshooted and resolved equipment and system issues, implementing innovative design solutions to optimize performance and increase efficiency by 15%.",
         ],
       },
     ],
@@ -147,19 +168,10 @@ const app: IApp = {
     tag: "project",
     deskTopProjects: [
       {
-        title: "Wano.finance",
-        tags: [
-          "nextjs",
-          "tailwind",
-          "postgres",
-          "metamask",
-          "solidity",
-          "layerzero",
-          "infura",
-          "truffle",
-        ],
-        desc: "Web3 omnichain payment infrastructure - Enhanced payment experience for 20M+ users in web3",
-        imgUrl: "assets/images/www.wano.finance_1.png",
+        title: "enterprse.figorr.com",
+        tags: ["NestJs", "ExpressJs", "GitHub", "Linux", "Stm32", "Arduino"],
+        desc: "Figorr is a provider of cold chain solutions that specializes in temperature-controlled products, temperature monitoring solutions, and cold chain services.",
+        imgUrl: "assets/images/figorr.png",
         links: [
           {
             icon: <Globe size={24} />,
@@ -170,10 +182,10 @@ const app: IApp = {
       },
 
       {
-        title: "MuqeeAI",
-        tags: ["react", "nextJS", "tailwind"],
-        desc: "Content creation on Autopilot.",
-        imgUrl: "assets/images/Screenshot-Muqee.png",
+        title: "BodSquare by Go54",
+        tags: ["Express", "Adonis", "Linux"],
+        desc: "GO54 provides all-inclusive cloud solutions for online presence",
+        imgUrl: "assets/images/bodsquare.png",
 
         links: [
           {
@@ -184,112 +196,59 @@ const app: IApp = {
         ],
       },
 
-      {
-        title: "kivifood",
-        tags: ["react", "styled-component"],
-        desc: "Get the food you want from the comfort of your home.",
-        imgUrl: "assets/images/Screenshot-Kivi.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://kivifood.netlify.app/",
-            tooltip: "View the web",
-          },
-        ],
-      },
+      // {
+      //   title: "Advice App",
+      //   tags: ["vue"],
+      //   desc: "Get life advices with this application.",
+      //   imgUrl: "assets/images/Screenshot-AdviceApp.png",
+      //   links: [
+      //     {
+      //       icon: <Globe size={24} />,
+      //       url: "https://rukkies-adviceapp.netlify.app",
+      //       tooltip: "View the web",
+      //     },
 
-      {
-        title: "Advice App",
-        tags: ["vue"],
-        desc: "Get life advices with this application.",
-        imgUrl: "assets/images/Screenshot-AdviceApp.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://rukkies-adviceapp.netlify.app",
-            tooltip: "View the web",
-          },
+      //     {
+      //       icon: <GithubLogo size={24} />,
+      //       url: "https://github.com/rukkiechovwe/advice_app_vue3",
+      //       tooltip: "View on github",
+      //     },
+      //   ],
+      // },
 
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/rukkiechovwe/advice_app_vue3",
-            tooltip: "View on github",
-          },
-        ],
-      },
+      // {
+      //   title: "Fem GPT",
+      //   tags: ["react", "tailwind", "AI"],
+      //   desc: "Female health advisor",
+      //   imgUrl: "assets/images/Screenshot-FemGPT.png",
+      //   links: [
+      //     {
+      //       icon: <Globe size={24} />,
+      //       url: "https://fem-gpt.vercel.app/",
+      //       tooltip: "View the web",
+      //     },
+      //     {
+      //       icon: <GithubLogo size={24} />,
+      //       url: "https://github.com/rukkiechovwe/fem-gpt",
+      //       tooltip: "View on github",
+      //     },
+      //   ],
+      // },
 
-      {
-        title: "Fem GPT",
-        tags: ["react", "tailwind", "AI"],
-        desc: "Female health advisor",
-        imgUrl: "assets/images/Screenshot-FemGPT.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://fem-gpt.vercel.app/",
-            tooltip: "View the web",
-          },
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/rukkiechovwe/fem-gpt",
-            tooltip: "View on github",
-          },
-        ],
-      },
+      // {
+      //   title: "Metadapp",
+      //   tags: ["react", "MUI", "Web3"],
+      //   desc: "An all in one Web3 dashboard",
+      //   imgUrl: "assets/images/Screenshot-Metadapp.png",
 
-      {
-        title: "Metadapp",
-        tags: ["react", "MUI", "Web3"],
-        desc: "An all in one Web3 dashboard",
-        imgUrl: "assets/images/Screenshot-Metadapp.png",
-
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://metadapp.com",
-            tooltip: "View the web",
-          },
-        ],
-      },
-
-      {
-        title: "RK-Store",
-        tags: ["react", "styled-component"],
-        desc: "An elegant ecommerce application.",
-        imgUrl: "assets/images/Screenshot-RK-Store.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://rukkies-ecommerce.netlify.app/",
-            tooltip: "View the web",
-          },
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/rukkiechovwe/ecommerce",
-            tooltip: "View on github",
-          },
-        ],
-      },
-
-      {
-        title: "lastprice",
-        tags: ["react", "redux", "ant design"],
-        desc: "Buy and sell products at discounted or slashed prices.",
-        imgUrl: "assets/images/Screenshot-Lastprice.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://amazing-torvalds-02adef.netlify.app",
-            tooltip: "View the web",
-          },
-
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/iamstanlee/last-price",
-            tooltip: "View on github",
-          },
-        ],
-      },
+      //   links: [
+      //     {
+      //       icon: <Globe size={24} />,
+      //       url: "https://metadapp.com",
+      //       tooltip: "View the web",
+      //     },
+      //   ],
+      // },
 
       // {
       //   title: "Art gallery",
