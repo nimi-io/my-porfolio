@@ -89,6 +89,17 @@ const app: IApp = {
     tag: "experience",
     experiences: [
       {
+        companyName: "Gentro",
+        companyLink: "Gentro.io",
+        duration: "2024",
+        jobTitle: "Backend Engineer",
+        workDone: [
+          "Designed the application from scratch, creating a strong Node.js + NestJs back-end in order to enhance users expanding leading significantly better performance and faster responses.",
+          "Consequently, I took charge of developing NestJs API which yielded remarkable efficiency improvements and system capabilities.",
+          "At the same time, I initiated a thorough Node.js CI/CD pipeline (implemented through Buddy.works) which managed to cut integration time by 50% as well as shorten delivery period..",
+        ],
+      },
+      {
         companyName: "Figorr [Formerlly Gricd]",
         companyLink: "Figorr.com",
         duration: "January 2021 - Till date",
@@ -175,7 +186,7 @@ const app: IApp = {
         links: [
           {
             icon: <Globe size={24} />,
-            url: "https://wano.finance/",
+            url: "https://enterprse.figorr.com",
             tooltip: "View the web",
           },
         ],
@@ -191,6 +202,19 @@ const app: IApp = {
           {
             icon: <Globe size={24} />,
             url: "https://muqee.ai",
+            tooltip: "View the web",
+          },
+        ],
+      },
+      {
+        title: "connect.gentro.com",
+        tags: ["NestJs", "GitHub"],
+        desc: "SIM Management system that enables users to purchase, manage, and pay for SIM usage",
+        imgUrl: "assets/images/Gentro.png",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://connect.gentro.io/",
             tooltip: "View the web",
           },
         ],
