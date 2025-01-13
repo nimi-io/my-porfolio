@@ -47,7 +47,7 @@ const Header: FC = () => {
                 // }}
               >
                 <S.LogoImage
-                  src="/nimi.png"
+                  src="/nimi.jpeg"
                   alt=""
                   width="60"
                   height="60"

@@ -89,6 +89,57 @@ const app: IApp = {
     tag: "experience",
     experiences: [
       {
+        companyName: "Optimus AI Labs",
+        companyLink: "optimusai.ai",
+        duration: "2024-2025",
+        jobTitle: "DevOps and AI Lead",
+        workDone: [
+          "Developed and deployed multiple applications from inception, utilizing Node.js and NestJs to create high-performance back-end systems with enhanced response times.",
+          "Directed the creation of advanced NestJs APIs across diverse projects, achieving significant improvements in system efficiency and functionality.",
+          "Streamlined CI/CD workflows by implementing Node.js pipelines, cutting integration times by 50% and expediting delivery schedules.",
+          "Executed performance optimization strategies, including caching, which reduced server response times by 40%.",
+          "Established monitoring and alerting frameworks to ensure application health and minimize downtime, enhancing overall reliability.",
+          "Supervised the complete development lifecycle for multiple applications, ensuring timely and high-quality project delivery.",
+          "Integrated machine learning models into applications to provide AI-driven features such as personalized recommendations and predictive analytics.",
+          "Developed APIs to serve AI models, ensuring scalability and responsiveness in real-time data processing.",
+          "Optimized the deployment and monitoring of AI/ML pipelines, ensuring efficient use of computational resources and maintaining model accuracy.",
+        ],
+      },
+      {
+        companyName: "Salad Africa",
+        companyLink: "https://www.saladafrica.com/",
+        duration: "2024",
+        jobTitle: "Fullstack Engineer",
+        workDone: [
+          "Designed and implemented user-friendly front-end interfaces for a fintech application using Next.js and TypeScript, ensuring responsive and intuitive user experiences.",
+          "Developed robust back-end services with Node.js and NestJs to manage financial transactions, user accounts, and secure APIs.",
+          "Integrated front-end and back-end systems using Next.js and NestJs, enabling seamless communication and real-time financial data processing.",
+          "Implemented secure authentication and authorization mechanisms, including role-based access control, to safeguard sensitive financial data.",
+          "Optimized database schemas and queries to handle large volumes of transactional data, ensuring scalability and performance.",
+          "Built and maintained CI/CD pipelines to automate testing, deployment, and delivery processes, streamlining the development lifecycle.",
+          "Collaborated with designers, financial analysts, and stakeholders to align technical solutions with business objectives and regulatory compliance.",
+          "Conducted code reviews and enforced best practices to ensure robust and maintainable code across the fintech application.",
+          "Developed reusable components and libraries tailored for fintech-specific functionalities, accelerating the development of new features.",
+          "Monitored and resolved performance bottlenecks, ensuring high availability, reliability, and fast transaction processing.",
+          "Provided comprehensive technical support and documentation, ensuring smooth knowledge transfer and team collaboration.",
+        ],
+      },
+      {
+        companyName: "Sprimble Engineering",
+        companyLink: "https://www.sprimble.com/",
+        duration: "2024-2025",
+        jobTitle: "Software Engineer",
+        workDone: [
+          "Engineered multiple applications from the ground up, leveraging Node.js and NestJs to build robust back-ends, significantly improving performance and response times.",
+          "Led the development of comprehensive NestJs APIs across various projects, delivering notable enhancements in efficiency and system functionality.",
+          "Designed and optimized database schemas to support scalable and efficient data storage, improving query performance by 30%.",
+          "Collaborated with front-end developers to ensure seamless API integration, resulting in an enhanced user experience across multiple platforms.",
+          "Conducted performance testing and implemented caching strategies, reducing server response time by 40%.",
+          "Introduced monitoring and alerting systems to track application health and prevent downtime, increasing system reliability.",
+          "Managed end-to-end development cycles for multiple applications, ensuring timely delivery and high-quality outcomes.",
+        ],
+      },
+      {
         companyName: "Gentro",
         companyLink: "Gentro.io",
         duration: "2024",
@@ -102,7 +153,7 @@ const app: IApp = {
       {
         companyName: "Figorr [Formerlly Gricd]",
         companyLink: "Figorr.com",
-        duration: "January 2021 - Till date",
+        duration: "January 2021 - 2024",
         jobTitle: "Software Engineer",
         workDone: [
           "Orchestrated a high-performing team to develop and deploy software components that automated manual processes, culminating in a remarkable 35% surge in productivity within the organization.",
@@ -179,6 +230,32 @@ const app: IApp = {
     tag: "project",
     deskTopProjects: [
       {
+        title: "grandmawurahub.app",
+        tags: ["NestJs", "GitHub", "Linux"],
+        desc: "Edutech App for Kids",
+        imgUrl: "assets/images/gwa.png",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://grandmawurahub.app/",
+            tooltip: "View the web",
+          },
+        ],
+      },
+      {
+        title: "saladafrica.com",
+        tags: ["NestJs", "NextJs", "GitHub", "Linux"],
+        desc: "Fintech App",
+        imgUrl: "assets/images/salad.png",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://grandmawurahub.app/",
+            tooltip: "View the web",
+          },
+        ],
+      },
+      {
         title: "enterprse.figorr.com",
         tags: ["NestJs", "ExpressJs", "GitHub", "Linux", "Stm32", "Arduino"],
         desc: "Figorr is a provider of cold chain solutions that specializes in temperature-controlled products, temperature monitoring solutions, and cold chain services.",
@@ -197,6 +274,20 @@ const app: IApp = {
         tags: ["Express", "Adonis", "Linux"],
         desc: "GO54 provides all-inclusive cloud solutions for online presence",
         imgUrl: "assets/images/bodsquare.png",
+
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://muqee.ai",
+            tooltip: "View the web",
+          },
+        ],
+      },
+      {
+        title: "Pagechap by Go54",
+        tags: ["Adonis", "Linux"],
+        desc: "GO54 provides all-inclusive cloud solutions for online presence",
+        imgUrl: "assets/images/pagechap.png",
 
         links: [
           {
