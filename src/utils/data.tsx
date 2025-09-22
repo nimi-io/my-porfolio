@@ -243,6 +243,19 @@ const app: IApp = {
     tag: "project",
     deskTopProjects: [
       {
+        title: "JourneyWise AI Platform",
+        tags: ["NestJs", "AI/ML", "Automation", "DevOps"],
+        desc: "AI-driven automation platform with machine learning models and scalable backend infrastructure",
+        imgUrl: "assets/images/jw.png",
+        links: [
+          {
+            icon: <Globe size={24} />,
+            url: "https://journeywise.io/",
+            tooltip: "View the web",
+          },
+        ],
+      },
+      {
         title: "grandmawurahub.app",
         tags: ["NestJs", "GitHub", "Linux"],
         desc: "Edutech App for Kids",
@@ -269,14 +282,14 @@ const app: IApp = {
         ],
       },
       {
-        title: "enterprse.figorr.com",
+        title: "enterprise.figorr.com",
         tags: ["NestJs", "ExpressJs", "GitHub", "Linux", "Stm32", "Arduino"],
         desc: "Figorr is a provider of cold chain solutions that specializes in temperature-controlled products, temperature monitoring solutions, and cold chain services.",
         imgUrl: "assets/images/figorr.png",
         links: [
           {
             icon: <Globe size={24} />,
-            url: "https://enterprse.figorr.com",
+            url: "https://enterprise.figorr.com",
             tooltip: "View the web",
           },
         ],
