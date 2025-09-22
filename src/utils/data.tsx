@@ -89,6 +89,19 @@ const app: IApp = {
     tag: "experience",
     experiences: [
       {
+        companyName: "JourneyWise",
+        companyLink: "journeywise.io",
+        duration: "2025",
+        jobTitle:
+          "Senior Software Engineer, AI & Automation Lead, Founding Engineer",
+        workDone: [
+          "Led the development of AI-driven automation solutions from conception to deployment, establishing the technical foundation for the company's core product offerings.",
+          "Co-led the architecting and implementation of scalable backend infrastructure, enabling seamless integration of machine learning models and automation workflows.",
+          "Built robust CI/CD pipelines and DevOps practices, ensuring reliable deployment and reducing system downtime by 60%.",
+          "Collaborated with cross-functional teams to translate business requirements into technical solutions, driving product innovation and establishing best practices for AI integration.",
+        ],
+      },
+      {
         companyName: "Optimus AI Labs",
         companyLink: "optimusai.ai",
         duration: "2024-2025",
@@ -250,7 +263,7 @@ const app: IApp = {
         links: [
           {
             icon: <Globe size={24} />,
-            url: "https://grandmawurahub.app/",
+            url: "https://www.saladafrica.com/",
             tooltip: "View the web",
           },
         ],
@@ -278,7 +291,7 @@ const app: IApp = {
         links: [
           {
             icon: <Globe size={24} />,
-            url: "https://muqee.ai",
+            url: "https://bodsquare.com/",
             tooltip: "View the web",
           },
         ],
@@ -292,7 +305,7 @@ const app: IApp = {
         links: [
           {
             icon: <Globe size={24} />,
-            url: "https://muqee.ai",
+            url: "https://pagechap.com/",
             tooltip: "View the web",
           },
         ],
@@ -385,196 +398,8 @@ const app: IApp = {
       //   ],
       // },
     ],
-    projects: [
-      {
-        title: "Wano.finance",
-        tags: ["nextjs", "tailwind", "metamask"],
-        desc: "Web3 omnichain payment infrastructure",
-        imgUrl: "assets/images/Screenshot-Wano.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://wano.finance/",
-            tooltip: "View the web",
-          },
-        ],
-      },
 
-      {
-        title: "Fem GPT",
-        tags: ["react", "tailwind CSS", "AI"],
-        desc: "Female health advisor",
-        imgUrl: "assets/images/Screenshot-FemGPT.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://fem-gpt.vercel.app/",
-            tooltip: "View the web",
-          },
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/rukkiechovwe/fem-gpt",
-            tooltip: "View on github",
-          },
-        ],
-      },
-
-      {
-        title: "MuqeeAI",
-        tags: ["react", "nextJS", "tailwind CSS"],
-        desc: "Content creation on Autopilot.",
-        imgUrl: "assets/images/Screenshot-Muqee.png",
-
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://muqee.ai",
-            tooltip: "View the web",
-          },
-        ],
-      },
-
-      {
-        title: "Metadapp",
-        tags: ["react", "MUI", "Web3"],
-        desc: "An all in one Web3 dashboard",
-        imgUrl: "assets/images/Screenshot-Metadapp.png",
-
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://metadapp.com",
-            tooltip: "View the web",
-          },
-        ],
-      },
-
-      {
-        title: "RK-Store",
-        tags: ["react", "styled-component"],
-        desc: "An elegant ecommerce application.",
-        imgUrl: "assets/images/Screenshot-RK-Store.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://rukkies-ecommerce.netlify.app/",
-            tooltip: "View the web",
-          },
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/rukkiechovwe/ecommerce",
-            tooltip: "View on github",
-          },
-        ],
-      },
-
-      {
-        title: "kivifood",
-        tags: ["react", "styled-component"],
-        desc: "Get the food you want from the comfort of your home.",
-        imgUrl: "assets/images/Screenshot-Kivi.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://kivifood.netlify.app/",
-            tooltip: "View the web",
-          },
-        ],
-      },
-      // {
-      //   title: "TodoApp",
-      //   tags: ["react"],
-      //   desc: "Todo list application.",
-      //   imgUrl: "assets/images/Screenshot-TodoApp.png",
-      //   links: [
-      //     {
-      //       icon: <Globe size={24} />,
-      //       url: "https://rukkiechovwe.github.io/myapp",
-      //       tooltip: "View the web",
-      //     },
-
-      //     {
-      //       icon: <GithubLogo size={24} />,
-      //       url: "https://github.com/rukkiechovwe/myapp",
-      //       tooltip: "View on github",
-      //     },
-      //   ],
-      // },
-
-      // {
-      //   title: "Icompresser",
-      //   tags: ["HTML", "CSS", "JS"],
-      //   desc: "Icompresser website",
-      //   imgUrl: "assets/images/Screenshot-ImgCompresser.png",
-      //   links: [
-      //     {
-      //       icon: <Globe size={24} />,
-      //       url: "https://www.icompresser.com/",
-      //       tooltip: "View the web",
-      //     },
-      //   ],
-      // },
-
-      {
-        title: "lastprice",
-        tags: ["react", "redux", "ant design"],
-        desc: "Buy and sell products at discounted or slashed prices.",
-        imgUrl: "assets/images/Screenshot-Lastprice.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://amazing-torvalds-02adef.netlify.app",
-            tooltip: "View the web",
-          },
-
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/iamstanlee/last-price",
-            tooltip: "View on github",
-          },
-        ],
-      },
-
-      {
-        title: "Advice App",
-        tags: ["vue"],
-        desc: "Get life advices with this application.",
-        imgUrl: "assets/images/Screenshot-AdviceApp.png",
-        links: [
-          {
-            icon: <Globe size={24} />,
-            url: "https://rukkies-adviceapp.netlify.app",
-            tooltip: "View the web",
-          },
-
-          {
-            icon: <GithubLogo size={24} />,
-            url: "https://github.com/rukkiechovwe/advice_app_vue3",
-            tooltip: "View on github",
-          },
-        ],
-      },
-
-      // {
-      //   title: "Art gallery",
-      //   tags: ["HTML", "CSS", "JS"],
-      //   desc: "Simple art gallery website template",
-      //   imgUrl: "assets/images/Screenshot-ArtGallery.png",
-      //   links: [
-      //     {
-      //       icon: <Globe size={24} />,
-      //       url: "https://rukkies-art-gallery.netlify.app",
-      //       tooltip: "View the web",
-      //     },
-
-      //     {
-      //       icon: <GithubLogo size={24} />,
-      //       url: "https://github.com/rukkiechovwe/Art-gallery",
-      //       tooltip: "View on github",
-      //     },
-      //   ],
-      // },
-    ],
+    projects: [],
   },
 
   socials: {
